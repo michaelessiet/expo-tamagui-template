@@ -4,17 +4,17 @@ import EditScreenInfo from "../../components/EditScreenInfo"
 import { Separator, Text, View } from "tamagui"
 import { Title } from "../../components/Text/Title"
 
-export default function TabOneScreen() {
+export default function TabTwoScreen() {
 	return (
 		<View
-			backgroundColor={"$background"}
 			flex={1}
-			alignItems="center"
+			backgroundColor={"$background"}
 			justifyContent="center"
+			alignItems="center"
 		>
-			<Title>Home</Title>
+			<Title>Profile</Title>
 			<Separator />
-			<EditScreenInfo path="app/(tabs)/index.tsx" />
+			<EditScreenInfo path="app/(tabs)/two.tsx" />
 		</View>
 	)
 }

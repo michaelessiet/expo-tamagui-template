@@ -1,14 +1,7 @@
-// import { config } from "@tamagui/config/v2"
-import { tokens } from "@tamagui/themes/v2"
-import { themes } from "@tamagui/themes/v2-themes"
-import { shorthands } from "@tamagui/shorthands"
 import { createTamagui } from "tamagui"
+import { config } from "@tamagui/config/v2"
 
-const tamaguiConfig = createTamagui({
-	tokens: tokens,
-	themes,
-	shorthands,
-})
+const tamaguiConfig = createTamagui(config)
 // this makes typescript properly type everything based on the config
 
 type Conf = typeof tamaguiConfig
