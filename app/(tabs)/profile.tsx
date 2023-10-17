@@ -14,7 +14,7 @@ export default function TabTwoScreen() {
 		>
 			<Title>Profile</Title>
 			<Separator />
-			<EditScreenInfo path="app/(tabs)/two.tsx" />
+			<EditScreenInfo path="app/(tabs)/profile.tsx" />
 		</View>
 	)
 }

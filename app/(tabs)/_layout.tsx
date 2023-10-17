@@ -4,7 +4,7 @@ import { Pressable, useColorScheme } from "react-native"
 
 import Colors from "../../constants/Colors"
 import { Label, Sheet, Text, View, getToken, useTheme } from "tamagui"
-import ModalScreen from "../modal"
+import ModalScreen from "../../components/modal"
 import { useState } from "react"
 import { Title } from "../../components/Text/Title"
 
