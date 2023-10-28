@@ -16,7 +16,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
 				<View
 					style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
 				>
-					<Text>{path}</Text>
+					<Text textAlign="center">{path}</Text>
 				</View>
 
 				<Text style={styles.getStartedText}>
