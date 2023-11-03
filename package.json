@@ -10,7 +10,8 @@
     "test": "jest --watchAll",
     "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest",
     "upgrade:tamagui:canary": "yarn up '*tamagui*'@canary '@tamagui/*'@canary",
-    "check-deps": "check-dependency-version-consistency ."
+    "check-deps": "check-dependency-version-consistency .",
+    "postinstall": "yarn check-deps"
   },
   "jest": {
     "preset": "jest-expo"
@@ -18,9 +19,9 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@react-navigation/native": "^6.0.2",
-    "@tamagui/config": "^1.74.15",
-    "@tamagui/lucide-icons": "^1.74.15",
-    "@tamagui/sheet": "^1.74.15",
+    "@tamagui/config": "latest",
+    "@tamagui/lucide-icons": "latest",
+    "@tamagui/sheet": "latest",
     "expo": "~49.0.13",
     "expo-font": "~11.4.0",
     "expo-linking": "~5.0.2",
@@ -38,7 +39,7 @@
     "react-native-screens": "~3.22.0",
     "react-native-svg": "^13.14.0",
     "react-native-web": "~0.19.6",
-    "tamagui": "^1.74.15"
+    "tamagui": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
