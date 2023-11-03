@@ -24,6 +24,7 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 .yarn
+.vscode
 
 # macOS
 .DS_Store
