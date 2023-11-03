@@ -55,5 +55,6 @@
   "resolutions": {
     "react-refresh": "~0.14.0"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@4.0.1"
 }
