@@ -8,10 +8,8 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest",
-    "upgrade:tamagui:canary": "yarn up '*tamagui*'@canary '@tamagui/*'@canary",
-    "check-deps": "check-dependency-version-consistency .",
-    "postinstall": "yarn check-deps"
+    "upgrade:tamagui": "bun update '*tamagui*'@latest '@tamagui/*'@latest",
+    "upgrade:tamagui:canary": "bun update '*tamagui*'@canary '@tamagui/*'@canary"
   },
   "jest": {
     "preset": "jest-expo"
@@ -55,6 +53,5 @@
   "resolutions": {
     "react-refresh": "~0.14.0"
   },
-  "private": true,
-  "packageManager": "yarn@4.0.1"
+  "private": true
 }
